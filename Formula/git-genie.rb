@@ -6,7 +6,7 @@ class GitGenie < Formula
   license "MIT"
 
   livecheck do
-    url "https://github.com/username/myapp/releases/latest"
+    url "https://github.com/alfhh/git-genie/releases/latest"
     regex(/href=.*?myapp[._-]v?(\d+(?:\.\d+)+)\.phar/i)
   end
 
@@ -17,6 +17,6 @@ class GitGenie < Formula
   end
 
   test do
-    system "#{bin}/myapp", "--version"
+    system "#{bin}/git-genie", "--version"
   end
 end
