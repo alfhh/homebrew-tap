@@ -1,8 +1,8 @@
 class GitGenie < Formula
   desc "A command-line tool to help you manage your GitHub repositories"
   homepage "https://gitgenie.io/"
-  url "https://github.com/alfhh/git-genie/releases/download/v1.0.1/git-genie.phar"
-  sha256 "3a8fde399213e6512c559944f3f0b4d2ee2082f6b10bed7942c5865b54fbb7bf"
+  url "https://github.com/alfhh/git-genie/releases/download/v1.0.2/git-genie.phar"
+  sha256 "8297742e53832097b072b0a08980aa764981d9674d42bb337367571891f49a87"
   license "MIT"
 
   livecheck do
